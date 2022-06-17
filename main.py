@@ -41,4 +41,4 @@ async def on_ready():
     await bot.change_presence(activity=discord.Game(name=f'nya>help | v{config.VERSION} 🔲'))
 
 load_dotenv()
-bot.run(os.getenv('Token'))
+bot.run(os.getenv('Token')
